@@ -1,0 +1,86 @@
+@import '../../vars.css';
+
+.container{
+    color: var(--color-text);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 79px;
+}
+
+.title{
+    color:var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform:uppercase;
+    margin-bottom: 30px;
+}
+
+.mySkills{
+    /* width: 45%; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    /* justify-content: space-evenly; */
+    /* height: 500px; */
+}
+
+.mySkill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11px;
+    
+}
+
+.mySkill p{
+    font-size: 25px;
+    font-family: var(--font-roboto);
+    font-weight: 500;
+}
+
+.skillImageContainer{
+    background-color: var(--color-secondary);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+}
+
+.skillImageContainer img{
+    width: 75px;
+}
+
+@media screen and (max-width:1080px) {
+    .skillImageContainer img{
+        width: 60px;
+    }
+    .skillImageContainer{
+        width: 90px;
+        height: 90px;
+    }
+    .mySkill p{
+        font-size: 20px;
+        font-weight: 300;
+    } 
+}
+
+@media screen and (max-width:430px) {
+    .skillImageContainer img{
+        width: 40px;
+    }
+    .skillImageContainer{
+        width: 70px;
+        height: 70px;
+    }
+    .mySkill p{
+        font-size: 15px;
+        font-weight: 200;
+    } 
+    .mySkills{
+        gap: 30px;
+    }
+}

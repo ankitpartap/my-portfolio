@@ -1,0 +1,26 @@
+[
+    {
+      "title": "Social Hub",
+      "imageSrc": "projects/socialhub.png",
+      "description": "A platform where users can join different communities and share thoughts, activities etc. Similar to any social media",
+      "skills": ["React", "Express", "Node", "MongoDB"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },
+    {
+      "title": "Dev Book",
+      "imageSrc": "projects/devbook.png",
+      "description": "A platform where develpoers can maintain their professional profile, just like a resume. User can also post mini blogs. ",
+      "skills": ["React", "Express", "Node", "MongoDB"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },
+    {
+      "title": "Library Management",
+      "imageSrc": "projects/library.png",
+      "description": "A web based solution to manage library operations. Also user can see book's details without visiting library.",
+      "skills": ["CSS", "ASP", "C#", "MS SQL"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    }
+  ]

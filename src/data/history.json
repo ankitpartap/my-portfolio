@@ -1,0 +1,18 @@
+[
+    {
+      "role": "Computer Teacher at Marshall Institute",
+      "organisation": "Marshall Institute",
+      "startDate": "Mar 2023",
+      "endDate": "Present",
+      "experiences": ["Handle IT requirements", "Teaching programming langs"],
+      "imageSrc": "history/marshall.png"
+    },
+    {
+      "role": "Freelancing",
+      "organisation": "Freelancing",
+      "startDate": "Aug 2022",
+      "endDate": "Present",
+      "experiences": ["Provide IT services", "Help to maintain online presence"],
+      "imageSrc": "history/freelancing.png"
+    }
+  ]
