@@ -12,21 +12,22 @@ export const Contact = () => {
         </div>
         <ul className={styles.links}>
             <li className={styles.link}>
-                <a href="mailto:ankitpartap47@gmail.com" target='new'>
-                    <Mail size={40} strokeWidth={1.75} />
-                    ankitpartap47@gmail.com
+                <a href="mailto:ankitpartap47@gmail.com" target="new" className={styles.flexContainer}>
+                    <Mail size={45} strokeWidth={1.75} />
+                    <p>ankitpartap47@gmail.com</p>
                 </a>
             </li>
             <li className={styles.link}>
-                <a href="https://www.linkedin.com/in/ankitpartap/" target='new'>
-                    <Linkedin size={40}  strokeWidth={1.5} />
-                    linkedin.com/in/ankitpartap
+                <a href="https://www.linkedin.com/in/ankitpartap/" target='new' className={styles.flexContainer}>
+                    <Linkedin size={45}  strokeWidth={1.5} />
+                    <p>linkedin.com/in/ankitpartap</p>
                 </a>
             </li>
             <li className={styles.link}>
-                <a href="https://github.com/ankitpartap" target='new'>
-                     <Github size={40}  strokeWidth={1.5}/>
-                     github/ankitpartap</a>
+                    <a href="https://github.com/ankitpartap" target='new' className={styles.flexContainer}>
+                        <Github size={45}  strokeWidth={1.5}/>
+                        <p>ankitpartap47@gmail.com</p>
+                    </a>
             </li>
         </ul>
     </footer>

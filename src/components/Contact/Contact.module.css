@@ -34,17 +34,45 @@
 
 .link{
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    align-items: flex-start;
     gap: 25px;
+    font-size: 30px;
 }
-
+/* .link p{
+    margin-top: 12px;
+}
 .link a{
     color: var(--color-text);
     text-decoration: none;
     font-size: 30px;
     font-weight: 400;
     letter-spacing: 1.5px;
+    display: flex;
+    flex-direction: row;
 }
+
+.link a:hover{
+    color: #576cbc;
+} */
+
+.flexContainer {
+    display: flex; 
+    align-items: center; 
+    gap: 20px; 
+    text-decoration: none;
+    color: inherit; 
+    margin-top: 12px;
+}
+
+.flexContainer:hover{
+    color: #576cbc;
+}
+  
+.flexContainer p {
+    margin: 0; /* Remove default margin from the paragraph */
+  }
+  
 
 @media screen and (max-width: 930px){
     .container{
