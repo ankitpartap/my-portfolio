@@ -16,7 +16,6 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    color: var(--color-text);
     z-index: 1;
     /* padding-bottom: 200px; */
     /* padding-top: -200px; */
@@ -37,6 +36,8 @@
     font-size: 25px;
     font-family: var(--font-robot);
     margin-bottom: 30px;
+    color: var(--color-text);
+    line-height: 1.65;
 }
 
 .contactBtn{
@@ -63,6 +64,17 @@
     margin-right: 40px;
     
 }
+
+.links{
+    display: flex;
+    flex-direction: row;
+    /* align-items: flex-start; */
+    list-style: none;
+    gap: 26px;
+
+}
+
+  
 
 @keyframes floating{
     0%{

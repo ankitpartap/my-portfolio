@@ -1,3 +1,5 @@
+
+
 *{
   box-sizing: border-box;
   margin: 0;
@@ -7,4 +9,16 @@
 
 html{
   scroll-behavior: smooth;
+}
+
+.lucide {
+  /* Change this! */
+  color:#fff;
+  width: 60px;
+  height: 60px;
+  stroke-width: 1.5px;
+}
+
+.lucide:hover{
+  color: #576cbc;
 }

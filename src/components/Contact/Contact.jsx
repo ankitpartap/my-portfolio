@@ -1,6 +1,7 @@
 import React from 'react'
 import { getImageUrl } from '../../utils'
 import styles from './Contact.module.css'
+import { FileUser, Github, Linkedin, Mail } from 'lucide-react';
 
 export const Contact = () => {
   return (
@@ -11,16 +12,21 @@ export const Contact = () => {
         </div>
         <ul className={styles.links}>
             <li className={styles.link}>
-                <img src={getImageUrl("contact/emailIcon.png")} alt="Email" />
-                <a href="mailto:ankitpartap47@gmail.com" target='new'>ankitpartap47@gmail.com</a>
+                <a href="mailto:ankitpartap47@gmail.com" target='new'>
+                    <Mail size={40} strokeWidth={1.75} />
+                    ankitpartap47@gmail.com
+                </a>
             </li>
             <li className={styles.link}>
-                <img src={getImageUrl("contact/linkedinIcon.png")} alt="linkedIn" />
-                <a href="https://www.linkedin.com/in/ankitpartap/" target='new'>linkedin.com/in/ankitpartap</a>
+                <a href="https://www.linkedin.com/in/ankitpartap/" target='new'>
+                    <Linkedin size={40}  strokeWidth={1.5} />
+                    linkedin.com/in/ankitpartap
+                </a>
             </li>
             <li className={styles.link}>
-                <img src={getImageUrl("contact/githubIcon.png")} alt="github" />
-                <a href="https://github.com/ankitpartap" target='new'>github/ankitpartap</a>
+                <a href="https://github.com/ankitpartap" target='new'>
+                     <Github size={40}  strokeWidth={1.5}/>
+                     github/ankitpartap</a>
             </li>
         </ul>
     </footer>
