@@ -15,12 +15,6 @@ export const Hero = () => {
           solutions. I'm open to job opportunities where I can contribute,
           learn, and grow.
         </p>
-        {/* <a
-          href="https://wa.me/918558050544?text=Hi!%20I'm%20found%20your%20profile%20intersted.%20Would%20you%20please%20tell%20me%20more%20about%20youself?"
-          className={styles.contactBtn}
-        >
-          Let's Talk
-        </a> */}
 
         {/* social links */}
         <ul className={styles.links}>
