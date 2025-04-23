@@ -34,7 +34,8 @@ export const Hero = () => {
             </a>
           </li>
           <li>
-            <a href="https://docs.google.com/document/d/1hBHwP_EDkGq5pcLYr_3zX0XvqHAh-6mp/edit?usp=sharing&ouid=114567035590124468487&rtpof=true&sd=true" target='new'>
+            <a href="https://docs.google.com/document/d/1oNgb_wh2z5zicT79mQzfba1HvT8c_2WT/edit?usp=sharing&ouid=114567035590124468487&rtpof=true&sd=true" target='new'>
+            
               <FileUser size={48} strokeWidth={1.75} />
             </a>
           </li>
