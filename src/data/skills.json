@@ -37,7 +37,7 @@
   },
   {
     "title": "Javascript",
-    "imageSrc": "skills/javascript.jpeg"
+    "imageSrc": "skills/js.png"
   },
   {
     "title": "Mantine",
@@ -45,7 +45,7 @@
   },
   {
     "title": "TailwindCSS",
-    "imageSrc": "skills/tailwindcss.png"
+    "imageSrc": "skills/tailwind.png"
   },
   {
     "title": "Streamlit",
