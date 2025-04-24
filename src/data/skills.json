@@ -4,7 +4,7 @@
     "imageSrc": "skills/react.png"
   },
   {
-    "title": "JavaScript",
+    "title": "NodeJS",
     "imageSrc": "skills/node.png"
   },
   {
@@ -26,5 +26,29 @@
   {
     "title": "GenAI",
     "imageSrc": "skills/ai2.png"
+  },
+  {
+    "title": "Git",
+    "imageSrc": "skills/git.png"
+  },
+  {
+    "title": "Firebase",
+    "imageSrc": "skills/firebase.png"
+  },
+  {
+    "title": "Javascript",
+    "imageSrc": "skills/javascript.png"
+  },
+  {
+    "title": "Mantine",
+    "imageSrc": "skills/mantine.png"
+  },
+  {
+    "title": "TailwindCSS",
+    "imageSrc": "skills/tailwindcss.png"
+  },
+  {
+    "title": "Stremlit",
+    "imageSrc": "skills/streamlit.png"
   }
 ]
