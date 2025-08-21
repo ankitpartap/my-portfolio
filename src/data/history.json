@@ -1,9 +1,17 @@
 [
+  {
+      "role": "Professional Trainer",
+      "organisation": "MITS Academy",
+      "startDate": "Mar 2023",
+      "endDate": "May 2025",
+      "experiences": ["Delivers lectures on technologies", "Conduct workshops and seminars"],
+      "imageSrc": "history/mits-logo.png"
+    },
     {
       "role": "Computer Teacher at Marshall Institute",
       "organisation": "Marshall Institute",
       "startDate": "Mar 2023",
-      "endDate": "Present",
+      "endDate": "May 2025",
       "experiences": ["Handle IT requirements", "Teaching programming langs"],
       "imageSrc": "history/marshall.png"
     },

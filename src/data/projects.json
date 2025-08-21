@@ -1,10 +1,32 @@
 [
     {
+      "title": "Budget Tracker",
+      "imageSrc": "projects/budget_tracker.png",
+      "description": "A simple webapp to manage your income and expense. Import/Export the transactions as CSV. Deployed on Firebase Hosting via CI/CD using Github Actions",
+      "skills": ["React", "Firebase", "GitHub", "Firestore"],
+      "demo": "https://budget-tracker-af7e6.firebaseapp.com/",
+      "source": "https://www.github.com"
+    },
+    {
+      "title": "SnipShot",
+      "imageSrc": "projects/snipshot.png",
+      "description": "A small blogging platform that perform all the CRUD application. Users can login and perform CRUD operation on their Blogs",
+      "skills": ["Python", "Django", "SQLite", "Bootstrap"],
+      "source": "https://www.github.com"
+    },
+    {
+      "title": "UI for Shoe Store",
+      "imageSrc": "projects/tailwindshoes.png",
+      "description": "A modern, responsive landing page for a shoe store designed with clean UI and smooth navigation. Showcases featured products, highlights brand identity, and is optimized for both desktop and mobile devices.",
+      "skills": ["React", "TailwindCSS"],
+      "demo": "https://tailwindshoes.netlify.app/",
+      "source": "https://www.github.com"
+    },
+    {
       "title": "Social Hub",
       "imageSrc": "projects/socialhub.png",
       "description": "A platform where users can join different communities and share thoughts, activities etc. Similar to any social media",
       "skills": ["React", "Express", "Node", "MongoDB"],
-      "demo": "https://www.example.com",
       "source": "https://www.github.com"
     },
     {
@@ -12,7 +34,6 @@
       "imageSrc": "projects/devbook.png",
       "description": "A platform where develpoers can maintain their professional profile, just like a resume. User can also post mini blogs. ",
       "skills": ["React", "Express", "Node", "MongoDB"],
-      "demo": "https://www.example.com",
       "source": "https://www.github.com"
     },
     {
@@ -20,7 +41,6 @@
       "imageSrc": "projects/library.png",
       "description": "A web based solution to manage library operations. Also user can see book's details without visiting library.",
       "skills": ["CSS", "ASP", "C#", "MS SQL"],
-      "demo": "https://www.example.com",
       "source": "https://www.github.com"
     }
   ]

@@ -1,7 +1,7 @@
 import React from "react";
 import { getImageUrl } from "../../utils";
 import styles from "./Hero.module.css";
-import { FileUser, Github, Linkedin, Mail } from 'lucide-react';
+import { FileUser, Github, Linkedin, Mail, NotebookPen } from 'lucide-react';
 
 
 export const Hero = () => {
@@ -37,6 +37,11 @@ export const Hero = () => {
             <a href="https://docs.google.com/document/d/1ONFPDwLN7iGAhBA2fgjcTeT9zJql2c1E/edit?usp=sharing&ouid=114567035590124468487&rtpof=true&sd=true" target='new'>
             
               <FileUser size={48} strokeWidth={1.75} />
+            </a>
+          </li>
+          <li>
+            <a href="https://techbyankit.hashnode.dev/" target="new">
+               <NotebookPen size={48} strokeWidth={1.5}/>
             </a>
           </li>
         </ul>
