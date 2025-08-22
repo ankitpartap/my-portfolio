@@ -16,7 +16,7 @@ export const ProjectCard = ({project:{title, imageSrc, description, skills, demo
         </ul>
         
         <div className={styles.links}>
-            {demo && <a href={demo} className={styles.link}>Demo</a>}
+            {demo && <a href={demo} className={styles.link} target='new'>Demo</a>}
             {/* <a href={source} className={styles.link}>Source</a> */}
         </div>
     </div>
